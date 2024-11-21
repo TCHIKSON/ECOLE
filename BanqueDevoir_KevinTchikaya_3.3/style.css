@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    display: flex;
+}
+
+button:hover {
+    background-color: #007bbf;
+}
+
+.container.solde {
+    max-width: 200px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.solde {
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.solde h2 {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: none;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-primary {
+    background-color: #bc1888;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #cc2366;
+}
+
+.form-check-label {
+    color: #fff;
+}
